@@ -1,16 +1,14 @@
 {
-  "name": "backend",
+  "name": "bmsce-utsav-backend",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-  "start": "node server.js",
-  "dev": "nodemon server.js"
-},
-
-  "keywords": [],
-  "author": "",
+  "main": "server.js",
+  "description": "Backend server for BMSCE Utsav event points leaderboard",
+  "author": "Sushanth Rai",
   "license": "ISC",
-  "description": "",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
